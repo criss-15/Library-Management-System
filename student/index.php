@@ -30,20 +30,15 @@ require('dbconn.php');
                                 <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="index.php">Your Profile</a></li>
-                                    <!--li><a href="#">Edit Profile</a></li>
-                                    <li><a href="#">Account Settings</a></li-->
                                     <li class="divider"></li>
                                     <li><a href="logout.php">Logout</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </div>
-                    <!-- /.nav-collapse -->
                 </div>
             </div>
-            <!-- /navbar-inner -->
         </div>
-        <!-- /navbar -->
         <div class="wrapper">
             <div class="container">
                 <div class="row">
@@ -63,9 +58,7 @@ require('dbconn.php');
                                 <li><a href="logout.php"><i class="menu-icon icon-signout"></i>Logout </a></li>
                             </ul>
                         </div>
-                        <!--/.sidebar-->
                     </div>
-                    <!--/.span3-->
                     <div class="span9">
                     	<center>
                            	<div class="card" style="width: 50%;"> 
@@ -102,15 +95,12 @@ require('dbconn.php');
                             <a href="edit_student_details.php" class="btn btn-primary">Edit Details</a>    
       					</center>              	
                     </div>
-                    
-                    <!--/.span9-->
                 </div>
             </div>
-            <!--/.container-->
         </div>
 
         
-        <!--/.wrapper-->
+
         <script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
         <script src="scripts/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
         <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>

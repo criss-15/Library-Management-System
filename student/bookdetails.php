@@ -41,12 +41,12 @@ if ($_SESSION['RollNo']) {
                             </li>
                         </ul>
                     </div>
-                    <!-- /.nav-collapse -->
+
                 </div>
             </div>
-            <!-- /navbar-inner -->
+
         </div>
-        <!-- /navbar -->
+
         <div class="wrapper">
             <div class="container">
                 <div class="row">
@@ -66,9 +66,9 @@ if ($_SESSION['RollNo']) {
                                 <li><a href="logout.php"><i class="menu-icon icon-signout"></i>Logout </a></li>
                             </ul>
                         </div>
-                        <!--/.sidebar-->
+
                     </div>
-                    <!--/.span3-->
+
                     
                     <div class="span9">
                         <div class="content">
@@ -113,22 +113,18 @@ if ($_SESSION['RollNo']) {
                                </div>
                            </div>
                             </div>
-                    <!--/.span3-->
-                    <!--/.span9-->
-                
-                    <!--/.span3-->
-                    <!--/.span9-->
+
                 </div>
                     
-                    <!--/.span9-->
+
                 </div>
-                    <!--/.span9-->
+
                 </div>
             </div>
-            <!--/.container-->
+
 
         
-        <!--/.wrapper-->
+
         <script src="scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
         <script src="scripts/jquery-ui-1.10.1.custom.min.js" type="text/javascript"></script>
         <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>

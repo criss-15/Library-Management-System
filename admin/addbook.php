@@ -33,15 +33,12 @@ if ($_SESSION['RollNo']) {
                                 <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     <li><a href="index.php">Your Profile</a></li>
-                                    <!--li><a href="#">Edit Profile</a></li>
-                                    <li><a href="#">Account Settings</a></li-->
                                     <li class="divider"></li>
                                     <li><a href="logout.php">Logout</a></li>
                                 </ul>
                             </li>
                         </ul>
                     </div>
-                    <!-- /.nav-collapse -->
                 </div>
             </div>
             <!-- /navbar-inner -->

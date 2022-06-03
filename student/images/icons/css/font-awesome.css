@@ -1,25 +1,4 @@
-/*!
- *  Font Awesome 3.0.2
- *  the iconic font designed for use with Twitter Bootstrap
- *  -------------------------------------------------------
- *  The full suite of pictographic icons, examples, and documentation
- *  can be found at: http://fortawesome.github.com/Font-Awesome/
- *
- *  License
- *  -------------------------------------------------------
- *  - The Font Awesome font is licensed under the SIL Open Font License - http://scripts.sil.org/OFL
- *  - Font Awesome CSS, LESS, and SASS files are licensed under the MIT License -
- *    http://opensource.org/licenses/mit-license.html
- *  - The Font Awesome pictograms are licensed under the CC BY 3.0 License - http://creativecommons.org/licenses/by/3.0/
- *  - Attribution is no longer required in Font Awesome 3.0, but much appreciated:
- *    "Font Awesome by Dave Gandy - http://fortawesome.github.com/Font-Awesome"
 
- *  Contact
- *  -------------------------------------------------------
- *  Email: dave@davegandy.com
- *  Twitter: http://twitter.com/fortaweso_me
- *  Work: Lead Product Designer @ http://kyruus.com
- */
 @font-face {
   font-family: 'FontAwesome';
   src: url('../font/fontawesome-webfont3294.eot?v=3.0.1');
@@ -29,8 +8,7 @@
   font-weight: normal;
   font-style: normal;
 }
-/*  Font Awesome styles
-    ------------------------------------------------------- */
+
 [class^="icon-"],
 [class*=" icon-"] {
   font-family: FontAwesome;
@@ -39,7 +17,7 @@
   text-decoration: inherit;
   -webkit-font-smoothing: antialiased;
 
-  /* sprites.less reset */
+
   display: inline;
   width: auto;
   height: auto;
@@ -50,7 +28,7 @@
   background-repeat: repeat;
   margin-top: 0;
 }
-/* more sprites.less reset */
+
 .icon-white,
 .nav-pills > .active > a > [class^="icon-"],
 .nav-pills > .active > a > [class*=" icon-"],
@@ -72,12 +50,12 @@
   display: inline-block;
   speak: none;
 }
-/* makes sure icons active on rollover in links */
+
 a [class^="icon-"],
 a [class*=" icon-"] {
   display: inline-block;
 }
-/* makes the font 33% larger relative to the icon container */
+
 .icon-large:before {
   vertical-align: -10%;
   font-size: 1.3333333333333333em;
@@ -87,7 +65,6 @@ a [class*=" icon-"] {
 .btn [class*=" icon-"],
 .nav [class*=" icon-"] {
   display: inline;
-  /* keeps button heights with and without icons the same */
 
 }
 .btn [class^="icon-"].icon-large,
@@ -131,7 +108,7 @@ li [class^="icon-"].icon-large,
 .nav li [class^="icon-"].icon-large,
 li [class*=" icon-"].icon-large,
 .nav li [class*=" icon-"].icon-large {
-  /* increased font size for icon-large */
+
 
   width: 1.5625em;
 }
@@ -269,8 +246,7 @@ ul.icons li [class*=" icon-"] {
     height: .75em;
   }
 }
-/*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
-    readers do not read off random characters that represent icons */
+
 .icon-glass:before                { content: "\f000"; }
 .icon-music:before                { content: "\f001"; }
 .icon-search:before               { content: "\f002"; }
@@ -303,7 +279,7 @@ ul.icons li [class*=" icon-"] {
 .icon-play-circle:before          { content: "\f01d"; }
 .icon-repeat:before               { content: "\f01e"; }
 
-/* \f020 doesn't work in Safari. all shifted one down */
+
 .icon-refresh:before              { content: "\f021"; }
 .icon-list-alt:before             { content: "\f022"; }
 .icon-lock:before                 { content: "\f023"; }
